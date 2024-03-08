@@ -1,0 +1,29 @@
+{
+    "name": "tuysay/collect",
+    "description": "DAA",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Tuysay\\Collect\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tuyasy",
+            "email": "misha.gapeev.04@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Collect\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}
